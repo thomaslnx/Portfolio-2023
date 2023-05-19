@@ -1,6 +1,6 @@
 import { Container } from './styles';
 
-const Works = () => (
+const Works: React.FC = (): JSX.Element => (
   <Container id="works" className="s-works target-section">
     <div className="row works-portfolio">
       <div className="column lg-12" data-animate-block>

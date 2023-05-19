@@ -4,7 +4,7 @@ interface HeaderProps {
   menuIsClicked: boolean;
 }
 
-const Header = ({ menuIsClicked }: HeaderProps): JSX.Element => (
+const Header: React.FC<HeaderProps> = ({ menuIsClicked }: HeaderProps): JSX.Element => (
   <Container className="s-header">
     <div className="header-mobile">
       <span className="mobile-home-link">

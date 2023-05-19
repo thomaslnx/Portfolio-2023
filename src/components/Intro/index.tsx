@@ -1,17 +1,20 @@
-import { Container } from './styles'
+'use client'
 
-const Intro = () => (
+import { Container } from './styles'
+import _3DHandComponent from '../_3DHandComponent'
+
+// 👋
+const Intro: React.FC = (): JSX.Element => (
   <Container id="intro" className="s-intro target-section">
     <div className="row intro-content wide">
       <div className="column">
         <div className="text-pretitle with-line">Hello World</div>
         <h1 className="text-huge-title">
-          Hi Folks, 👋 <br />
+          Hi Folks, <_3DHandComponent /> <br />
           I am Marcos, <br />
           a JavaScript, <br />
           Full Stack <br />
           Software Engineer <br />
-          {/* & junior <br /> */}
         </h1>
       </div>
 

@@ -1,6 +1,6 @@
 import { Container } from './styles'
 
-const SayHello = () => (
+const SayHello: React.FC = (): JSX.Element => (
   <Container id="contact" className="s-contact target-section">
     <div className="row contact-top">
       <div className="colum lg-12">
