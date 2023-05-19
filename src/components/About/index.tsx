@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Container } from './styles'
 
-const About = () => (
+const About: React.FC = (): JSX.Element => (
   <Container id="about" className="s-about target-section">
     <div className="row about-info wide" data-animate-block>
       <div className="column lg-6 md-12 about-info__pic-block">

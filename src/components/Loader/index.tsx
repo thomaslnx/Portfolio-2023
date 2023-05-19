@@ -7,7 +7,7 @@ interface LoaderProps {
   display: string
 }
 
-const Loader = (
+const Loader: React.FC<LoaderProps> = (
   { visibility, display }: LoaderProps,
   ref: RefObject<MutableRefObject<null>>
 ): JSX.Element => (
