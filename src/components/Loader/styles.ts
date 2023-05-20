@@ -2,7 +2,7 @@ import { MutableRefObject, RefObject } from 'react';
 import styled from 'styled-components';
 
 interface LoaderProps {
-  preloadRef: RefObject<MutableRefObject<null>>;
+  // preloadRef: RefObject<MutableRefObject<null>>;
   visibility: string;
   display: string;
 }

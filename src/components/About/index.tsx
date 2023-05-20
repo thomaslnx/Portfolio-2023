@@ -21,11 +21,11 @@ const About: React.FC = (): JSX.Element => (
             About
           </h2>
           <p className="attention-getter" data-animate-el>
-            Hi, Marcos Moura here! 👋 A little bit about myself: I'm married to
+            Hi, Marcos Moura here! 👋 A little bit about myself: I`&apos;`m married to
             the most wonderful woman ever and I have two little beautiful
-            princesses. I'm a Jr Javascript Full Stack developer with about 3
+            princesses. I`&apos;`m a Jr Javascript Full Stack developer with about 3
             years of experience, recently working mainly with ReactJS and NodeJS
-            but I have some experience with React Native too. I'm always keeping
+            but I have some experience with React Native too. I`&apos;`m always keeping
             in move, learning something new that is so new and exciting to me
             and which makes me more productive and valuable as a professional
             developer. I love coding because is there no boring routine from
@@ -101,7 +101,7 @@ const About: React.FC = (): JSX.Element => (
             </div>
             <div className="timeline__desc">
               <p>
-                Helping Tog's team to deliver high-quality software to your
+                Helping Tog`&apos;`s team to deliver high-quality software to your
                 customers as Jr front end developer using mainly JavaScript,
                 React, and Typescript, and at the same time that I get improving
                 my own hard and soft skills.
