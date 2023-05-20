@@ -9,8 +9,21 @@ const WavingHand: React.FC = (): JSX.Element => {
   const wavingHand = useGLTF("./images/3DAssets/wavingHand.gltf")
 
   return (
-    <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+    <mesh
+      onPointerOver={(e) => {
+        {/* console.log('mouse hover above 3d hand')
+            console.log('event value: ', e)
+        */}
+      }}
+      onClick={(e) => {
+        {/*
+          console.log('click event over the 3d hand')
+          console.log('click event value: ', e)
+        */}
+      }}
+      castShadow
+    >
+      <hemisphereLight intensity={0.15} groundColor='black' /> {/**  light put right above the scene */}
       <pointLight
         intensity={1}
         position={[30, 40, -30]}

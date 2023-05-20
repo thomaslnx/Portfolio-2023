@@ -17,7 +17,7 @@ import viewAnimate from '@src/utils/viewAnimate'
 import worksLightbox from '@src/utils/worksModals'
 
 
-import { MainContent, PageContent } from './styles'
+import { MainContent, PageContent } from '../../marcosStyles'
 
 const Marcos: React.FC = (): JSX.Element => {
   const preloadRef = useRef<MutableRefObject<null>>(null)
@@ -191,7 +191,7 @@ const Marcos: React.FC = (): JSX.Element => {
 
   return (
     <main>
-      <Loader ref={preloadRef} display={display} visibility={visibility} />
+      <Loader /* ref={preloadRef} */ display={display} visibility={visibility} />
       <PageContent className="s-pagewrap">
         <Circles />
         <Header menuIsClicked={menuIsClicked} />
