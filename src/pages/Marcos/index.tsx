@@ -1,3 +1,5 @@
+'use client'
+
 import anime from 'animejs'
 
 import { MutableRefObject, useRef, useState, useEffect } from 'react'
@@ -135,7 +137,7 @@ const Marcos: React.FC = (): JSX.Element => {
 
   useEffect(() => {
     htmlTargets !== undefined && scrollSpy(htmlTargets);
-    trigger !== undefined && pageScroll(trigger);
+    trigger !== undefined && pageScroll(trigger); 
     worksModals !== undefined && worksLightbox(worksModals);
 
     const menuClickedEventListener = (event: Event) => {
@@ -191,7 +193,7 @@ const Marcos: React.FC = (): JSX.Element => {
 
   return (
     <main>
-      <Loader /* ref={preloadRef} */ display={display} visibility={visibility} />
+      <Loader display={display} visibility={visibility} />
       <PageContent className="s-pagewrap">
         <Circles />
         <Header menuIsClicked={menuIsClicked} />
