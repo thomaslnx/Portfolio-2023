@@ -137,7 +137,7 @@ const Marcos: React.FC = (): JSX.Element => {
 
   useEffect(() => {
     htmlTargets !== undefined && scrollSpy(htmlTargets);
-    trigger !== undefined && pageScroll(trigger); 
+    if (trigger !== undefined && typeof window !== 'undefined') pageScroll(trigger);
     worksModals !== undefined && worksLightbox(worksModals);
 
     const menuClickedEventListener = (event: Event) => {
@@ -172,6 +172,8 @@ const Marcos: React.FC = (): JSX.Element => {
 
     toggleButton?.addEventListener('click', menuClickedEventListener);
     window.addEventListener('resize', menuResizeContainer);
+
+    if (trigger !== undefined && typeof window !== 'undefined') pageScroll(trigger);
 
     return () => {
       toggleButton?.removeEventListener('click', menuClickedEventListener);

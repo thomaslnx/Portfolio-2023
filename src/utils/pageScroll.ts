@@ -1,4 +1,4 @@
-import MoveTo from 'moveto';
+import MoveTo from './moveTo'
 
 const pageScroll = (elements: NodeListOf<HTMLElement>) => {
   const sections = Array.from(elements);
@@ -26,12 +26,13 @@ const pageScroll = (elements: NodeListOf<HTMLElement>) => {
     },
   };
 
+
   const moveTo = new MoveTo(
     {
       tolerance: 0,
       duration: 1200,
       easing: 'easeInOutCubic',
-      container: window,
+      container: globalThis,
     },
     easeFunctions
   );
