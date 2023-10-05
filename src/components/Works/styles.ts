@@ -131,7 +131,7 @@ export const Container = styled.section`
 
   .folio-list__item-text {
     padding-top: var(--vspace-0_5);
-    border-top: 1 solid var(--color-border);
+    border-top: 1px solid var(--color-border);
     min-height: var(--item-min-height);
     position: relative;
   }
@@ -185,4 +185,88 @@ export const Container = styled.section`
   .folio-list__proj-link:hover {
     transform: scale(1.2);
   }
+
+  @media screen and (max-width: 1200px) {
+    .folio-list__item-title {
+        font-size   : var(--text-md);
+        line-height : var(--vspace-0_875);
+    }
+
+    .folio-list__item-cat {
+        font-size : var(--text-xs);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .folio-list__item-title {
+        font-size   : var(--text-lg);
+        line-height : var(--vspace-1);
+    }
+
+    .folio-list__item-cat {
+        font-size : var(--text-sm);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .s-works {
+        padding-top    : var(--vspace-4);
+        padding-bottom : var(--vspace-3);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .folio-list__item-title {
+        font-size   : var(--text-md);
+        line-height : var(--vspace-0_875);
+    }
+
+    .folio-list__proj-link {
+        right : var(--vspace-0_5);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .folio-list {
+        --item-min-height : var(--vspace-3_5);
+    }
+
+    .folio-list__item {
+        margin-bottom : var(--vspace-0_75);
+    }
+
+    .folio-list__item-link {
+        padding-left : calc(4.25 * var(--space));
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .folio-list .column {
+        flex  : none;
+        width : 50%;
+    }
+
+    .folio-list__item {
+        margin-bottom : 0;
+    }
+
+    .folio-list__item-link {
+        padding-left : 0;
+    }
+
+    .folio-list__item-pic {
+        position : static;
+    }
+
+    .folio-list__item-pic img {
+        max-width : 100%;
+        width     : 100%;
+        height    : auto;
+    }
+
+    .folio-list__item-text,
+    .folio-list__proj-link {
+        display : none;
+    }
+}
 `;

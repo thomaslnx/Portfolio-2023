@@ -17,7 +17,7 @@ const Works: React.FC = (): JSX.Element => (
           <li className="folio-list__item column" data-animate-el>
             <a href="#work-01" className="folio-list__item-link">
               <div className="folio-list__item-pic">
-                <Image src="/images/about.jpg" width={100} height={100} alt="work1" />
+                <Image src="/images/Marcos.jpg" width={100} height={100} alt="work1" />
               </div>
 
               <div className="folio-list__item-text">
@@ -80,16 +80,25 @@ const Works: React.FC = (): JSX.Element => (
 
       <div id="work-01" hidden>
         <div className="modal-popup">
-          <Image src="/images/about.jpg" width={100} height={100} alt="" />
+          <Image src="/images/Marcos.jpg" width={1100} height={100} alt="Personal portfolio" />
           <div className="modal-popup__desc">
             <h5>Personal Portfolio</h5>
-            <p>Descrição que será dada ao projeto do portfolio</p>
+            <p>This is my personal website where I intend to show some of my skills as a
+              frontend developer using some of the most modern tools and frameworks for
+              frontend development. This project will be evolving as time passes, so stay tuned.</p>
             <ul className="modal-popup__cat">
-              <li>Programming</li>
+              <li>NextJS</li>
+              <li>Typescript</li>
+              <li>Styled-Components</li>
+              <li>Animejs</li>
+              <li>Vercel</li>
+              <li>Transitions</li>
+              <li>Animations</li>
+              <li>JavaScript</li>
             </ul>
           </div>
 
-          <a href="#" className="modal-popup__details">
+          <a href="https://github.com/thomaslnx/Portfolio-2023" className="modal-popup__details">
             Project link
           </a>
         </div>
