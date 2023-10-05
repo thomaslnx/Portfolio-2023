@@ -12,7 +12,7 @@ const Intro: React.FC = (): JSX.Element => (
         <h1 className="text-huge-title">
           Hi Folks, <_3DHandComponent /> <br />
           I am Marcos, <br />
-          a JavaScript, <br />
+          a JavaScript <br />
           Full Stack <br />
           Software Engineer <br />
         </h1>
