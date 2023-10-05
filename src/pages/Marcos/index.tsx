@@ -204,8 +204,8 @@ const Marcos: React.FC = (): JSX.Element => {
           <About />
           <Works />
           <SayHello />
-          <Footer />
         </MainContent>
+        <Footer />
       </PageContent>
     </main>
   )
