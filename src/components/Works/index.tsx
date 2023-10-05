@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+import Marcos from '../../../public/images/Marcos.png'
 import { Container } from './styles';
 
 const Works: React.FC = (): JSX.Element => (
@@ -17,7 +18,7 @@ const Works: React.FC = (): JSX.Element => (
           <li className="folio-list__item column" data-animate-el>
             <a href="#work-01" className="folio-list__item-link">
               <div className="folio-list__item-pic">
-                <Image src="/images/Marcos.jpg" width={100} height={100} alt="work1" />
+                <Image src={Marcos} alt="work1" />
               </div>
 
               <div className="folio-list__item-text">
@@ -47,7 +48,7 @@ const Works: React.FC = (): JSX.Element => (
           <li className="folio-list__item column" data-animate-el>
             <a href="#work-02" className="folio-list__item-link">
               <div className="folio-list__item-pic">
-                <Image src="/images/about.jpg" width={100} height={100} alt="work1" />
+                <Image src={Marcos} alt="work2" />
               </div>
 
               <div className="folio-list__item-text">
@@ -80,7 +81,7 @@ const Works: React.FC = (): JSX.Element => (
 
       <div id="work-01" hidden>
         <div className="modal-popup">
-          <Image src="/images/Marcos.jpg" width={1100} height={100} alt="Personal portfolio" />
+          <Image src={Marcos} alt="Personal portfolio" />
           <div className="modal-popup__desc">
             <h5>Personal Portfolio</h5>
             <p>This is my personal website where I intend to show some of my skills as a
@@ -106,7 +107,7 @@ const Works: React.FC = (): JSX.Element => (
 
       <div id="work-02" hidden>
         <div className="modal-popup">
-          <Image src="/images/about.jpg" width={100} height={100} alt="" />
+          <Image src={Marcos} alt="Work 2" />
           <div className="modal-popup__desc">
             <h5>Personal Portfolio</h5>
             <p>Descrição que será dada ao projeto do portfolio</p>
