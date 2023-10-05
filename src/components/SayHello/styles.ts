@@ -1,9 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  padding-top: var (--vspace-4);
-  padding-bottom: var(--vspace-3);
-
   .text-pretitle {
     font-family: var(--font-1);
     font-size: var(--text-sm);
