@@ -91,6 +91,12 @@ export const Lightbox = `
     position: relative;
   }
 
+  @media screen and (min-width: 1200px) and (max-width: 3024px) {
+    .modal-popup {
+      width: 480px;
+    }
+  }
+
   .modal-popup img {
     margin-bottom: var(--vspace-0_75);
     width: 100%;
