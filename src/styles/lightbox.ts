@@ -93,7 +93,35 @@ export const Lightbox = `
 
   @media screen and (min-width: 1200px) and (max-width: 3024px) {
     .modal-popup {
-      width: 480px;
+      max-width: 480px;
+    }
+  }
+
+  @media screen and (max-height: 800px) {
+    .modal-popup {
+      max-width: 350px;
+      font-size: calc(var(--text-size) * 0.8);
+      line-height: var(--vspace-0_75);
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .modal-popup {
+      max-width: 330px
+    }
+  }
+
+  @media screen and (min-width: 376px) and (max-width: 414px) {
+    .modal-popup {
+      max-width: 350px;
+      font-size: calc(var(--text-size) * 0.8);
+      line-height: var(--vspace-0_625);
+    }
+  }
+
+  @media screen and (min-width: 415px) and (max-width: 768px) {
+    .modal-popup {
+      max-width: 600px;
     }
   }
 

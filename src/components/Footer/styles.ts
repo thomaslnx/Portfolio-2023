@@ -61,4 +61,25 @@ export const Container = styled.section`
   .ss-go-top svg path {
     fill: white;
   }
+
+  @media screen and (max-width: 600px) {
+  .ss-copyright span {
+    display: block;
+  }
+
+  .ss-copyright span::after {
+    display: none;
+  }
+
+  .ss-go-top {
+    top: calc(var(--vspace-0_25) * -1);
+    right: calc(6vw + var(--gutter));
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ss-go-top {
+    right: 6vw;
+  }
+}
 `
