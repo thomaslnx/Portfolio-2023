@@ -19,14 +19,14 @@ const SayHello: React.FC = (): JSX.Element => (
     </div>
     
     <div className="row contact-bottom">
-      <div className="column lg-3 md-5 tab-6 stack-on-550 contact-clock">
+      <div className="column lg-3 md-5 tab-6 stack-on-550 contact-block">
         <h3 className="text-pretitle">Reach me at</h3>
         <p className="contact-links">
           <a href="mailto:marcos.msilva10@gmail.com">marcos.msilva10@gmail.com</a> <br />
           <a href="tel:+5564999461326">+55 63 99946 1326</a>
         </p>
       </div>
-      <div className="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+      <div className="column mid-lg lg-4 md-5 tab-6 stack-on-550 contact-block">
         <h3 className="text-pretitle">Social</h3>
         <ul className="contact-social">
           <li>

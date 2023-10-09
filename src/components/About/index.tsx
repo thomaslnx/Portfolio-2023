@@ -87,44 +87,45 @@ const About: React.FC = (): JSX.Element => (
         <div className="timeline" data-animate-el>
 
         <div className="timeline__block">
-            <div className="timeline__bullet" />
-            <div className="timeline__header">
-              <h4 className="timeline__title">Scopio</h4>
-              <h5 className="timeline__meta">Full Stack Software Engineer</h5>
-              <p className="timeline__timeframe">April 2022 - March 2023</p>
-            </div>
-            <div className="timeline__desc">
-              <p>
-              As a full-stack software engineer, I was responsible for automating some
-              processes, like the sending of push notifications through our mobile app
-              every time one new job opportunity was included in our job board to all
-              photographers that fit the job requirements. This automation makes the
-              inner team save time and reach our target audience at once. For this task,
-              I used technologies like MongoDB, PostgreSQL, GraphQL, React, NodeJS,
-              Typescript, Amazon SNS Service, Amazon SQS Service, and others.
-              </p>
-            </div>
+          <div className="timeline__bullet" />
+          <div className="timeline__header">
+            <h4 className="timeline__title">Scopio</h4>
+            <h5 className="timeline__meta">Full Stack Software Engineer</h5>
+            <p className="timeline__timeframe">April 2022 - March 2023</p>
           </div>
-          <div className="timeline__block">
-            <div className="timeline__bullet" />
-            <div className="timeline__header">
-              <h4 className="timeline__title">Tog Design</h4>
-              <h5 className="timeline__meta">Jr FrontEnd Developer</h5>
-              <p className="timeline__timeframe">August 2021 - April 2022</p>
-            </div>
-            <div className="timeline__desc">
-              <p>
-                Helping Tog&apos;s team to deliver high-quality software to your customers
-                as Jr front end developer using mainly JavaScript, React, and Typescript.
-                During my time at the company, I had the opportunity to work on two projects.
-                At first, I was implementing the entire layout from the design team to an inner
-                project. For this, I used React, Typescript, and Styled-Components. For the
-                second project, I worked as an outsource with a partner&apos;s team, where we
-                were migrating the legacy frontend system to React using Typescript using the
-                client&apos;s style guide.
-              </p>
-            </div>
+          <div className="timeline__desc">
+            <p>
+            As a full-stack software engineer, I was responsible for automating some
+            processes, like the sending of push notifications through our mobile app
+            every time one new job opportunity was included in our job board to all
+            photographers that fit the job requirements. This automation makes the
+            inner team save time and reach our target audience at once. For this task,
+            I used technologies like MongoDB, PostgreSQL, GraphQL, React, NodeJS,
+            Typescript, Amazon SNS Service, Amazon SQS Service, and others.
+            </p>
           </div>
+        </div>
+
+        <div className="timeline__block">
+          <div className="timeline__bullet" />
+          <div className="timeline__header">
+            <h4 className="timeline__title">Tog Design</h4>
+            <h5 className="timeline__meta">Jr FrontEnd Developer</h5>
+            <p className="timeline__timeframe">August 2021 - April 2022</p>
+          </div>
+          <div className="timeline__desc">
+            <p>
+              Helping Tog&apos;s team to deliver high-quality software to your customers
+              as Jr front end developer using mainly JavaScript, React, and Typescript.
+              During my time at the company, I had the opportunity to work on two projects.
+              At first, I was implementing the entire layout from the design team to an inner
+              project. For this, I used React, Typescript, and Styled-Components. For the
+              second project, I worked as an outsource with a partner&apos;s team, where we
+              were migrating the legacy frontend system to React using Typescript using the
+              client&apos;s style guide.
+            </p>
+          </div>
+        </div>
 
           <div className="timeline__block">
             <div className="timeline__bullet" />
@@ -172,6 +173,56 @@ const About: React.FC = (): JSX.Element => (
                 technologists capable of analyzing, designing, documenting,
                 specifying, testing, implementing and maintaining computer
                 information systems, acting in a professional manner.
+              </p>
+            </div>
+          </div>
+
+          <div className="timeline__block">
+            <div className="timeline__bullet" />
+            <div className="timeline__header">
+              <h4 className="timeline__title">
+                JS Fullstack Bootcamp
+              </h4>
+              <h5 className="timeline__meta">
+                Rocketseat JavaScript Fullstack Bootcamp
+              </h5>
+              <p className="timeline__timeframe">April 2015 - September 2019</p>
+            </div>
+            <div className="timeline__desc">
+              <p>
+              A bootcamp focused in teaching to use the latest JS technologies and
+              its frameworks such as ReactJS, NextJS, React Native, Typescript, NodeJS,
+              styling libraries such as Styled-Components, TailwindCSS, Material-UI
+              among others. SQL and No-SQL databases like PostgreSQL, MongoDB, MySql
+              and its ORMs such as sequelize, mongoose, typeORM. In this bootcamp I
+              learned to use testing frameworks like Jest, Vitest and some project
+              patterns.
+              </p>
+            </div>
+          </div>
+
+          <div className="timeline__block">
+            <div className="timeline__bullet" />
+            <div className="timeline__header">
+              <h4 className="timeline__title">
+                Javascript Expert Training
+              </h4>
+              <h5 className="timeline__meta">
+                Advanced JavaScript Training
+              </h5>
+              <p className="timeline__timeframe">April 2015 - September 2019</p>
+            </div>
+            <div className="timeline__desc">
+              <p>
+              This training aims to make the candidate understand JS advanced concepts
+              and when to use it to get all the power of JavaScript language. In this
+              course, I have learned and practiced JS concepts like generators, iterators,
+              async iterators, map, weak map, reflect, proxy, node timers, regex, design
+              patterns like SOLID, DRY, Clean code, dependence injection, and factory among
+              some others. I have dived deep into javascript testing using frameworks like
+              Jest and the newest nodejs 20 native testing solution, node streams,
+              graceful shutdown, performance, and a lot more. in this course, I have learned
+              that I can use JS to create the most advanced solution than just a CRUD.
               </p>
             </div>
           </div>

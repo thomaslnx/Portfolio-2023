@@ -180,10 +180,10 @@ export const Container = styled.section`
     content: '';
     display: block;
     width: 1px;
-    height: calc(100% - var(--timeline-top-adjust));
+    height: calc(100% + var(--timeline-top-adjust) - 50px);
     background-color: var(--color-border);
     position: absolute;
-    top: var(--timeline-top-adjust);
+    top: calc(var(--timeline-top-adjust) + 15px);
     left: 3px;
   }
 

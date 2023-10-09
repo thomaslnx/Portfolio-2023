@@ -122,15 +122,22 @@ export const Container = styled.section`
 
   @media screen and (max-width: 1200px) {
     .contact-btn {
-        margin-top   : var(--vspace-0_5);
-        margin-left  : 0;
-        margin-right : 0;
+        margin-top: var(--vspace-0_5);
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }
+
+  @media screen and (min-width: 1201px) {
+    .mid-lg {
+      padding-left: 40px;
+      padding-right: 0;
     }
   }
 
   @media screen and (max-width: 800px) {
     .contact-top {
-        padding-top : var(--vspace-4);
+        padding-top: var(--vspace-4);
     }
   } 
 `
