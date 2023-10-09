@@ -210,7 +210,7 @@ const About: React.FC = (): JSX.Element => (
               <h5 className="timeline__meta">
                 Advanced JavaScript Training
               </h5>
-              <p className="timeline__timeframe">April 2015 - September 2019</p>
+              <p className="timeline__timeframe">January 2023 - Present</p>
             </div>
             <div className="timeline__desc">
               <p>

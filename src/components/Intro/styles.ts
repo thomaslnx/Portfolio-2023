@@ -74,6 +74,12 @@ export const Container = styled.section`
     fill: var(--color-1);
   }
 
+  @media (min-width: 390px) and (max-width: 768px) {
+    .text-huge-title>section {
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 350px) {
     .intro-content .column {
       padding: 0;

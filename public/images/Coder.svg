@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg59"
+   width="312.95999"
+   height="292.48001"
+   viewBox="0 0 312.95999 292.48001"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs63">
+    <rect
+       x="-561.42267"
+       y="24.018082"
+       width="77.309525"
+       height="101.03154"
+       id="rect428" />
+  </defs>
+  <g
+     id="g65">
+    <rect
+       style="fill:#000000;stroke:#66d954;stroke-width:0;stroke-miterlimit:14.6"
+       id="rect372"
+       width="317.26385"
+       height="328.75894"
+       x="-3.3941567"
+       y="-3.9344079"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       id="text426"
+       style="font-size:64px;white-space:pre;shape-inside:url(#rect428);fill:#000000;stroke:#66d954;stroke-width:0;stroke-miterlimit:14.6"
+       transform="matrix(1.972426,0,0,1.972426,1128.4984,-78.402003)"><tspan
+         x="-561.42188"
+         y="88.337578"
+         id="tspan812"><tspan
+           style="font-weight:bold;font-family:'Hiragino Maru Gothic ProN';-inkscape-font-specification:'Hiragino Maru Gothic ProN Bold';fill:#00ff00"
+           id="tspan808">&gt;</tspan><tspan
+           style="font-family:'Mukta Mahee';-inkscape-font-specification:'Mukta Mahee';fill:#00ff00"
+           id="tspan810">_</tspan></tspan></text>
+  </g>
+</svg>

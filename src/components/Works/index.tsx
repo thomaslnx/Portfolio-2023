@@ -1,6 +1,8 @@
 import Image from 'next/image'
 
 import Marcos from '../../../public/images/Marcos.png'
+import Coder from '../../../public/images/Coder.svg'
+
 import { Container } from './styles';
 
 const Works: React.FC = (): JSX.Element => (
@@ -48,13 +50,13 @@ const Works: React.FC = (): JSX.Element => (
           <li className="folio-list__item column" data-animate-el>
             <a href="#work-02" className="folio-list__item-link">
               <div className="folio-list__item-pic">
-                <Image src={Marcos} alt="work2" />
+                <Image src={Coder} alt="work2" />
               </div>
 
               <div className="folio-list__item-text">
-                <div className="folio-list__item-cat">Component</div>
+                <div className="folio-list__item-cat">Coder</div>
                 <div className="folio-list__item-title">
-                  Credit Card Component
+                  Coder - (Soon)
                 </div>
               </div>
             </a>
@@ -107,13 +109,15 @@ const Works: React.FC = (): JSX.Element => (
 
       <div id="work-02" hidden>
         <div className="modal-popup">
-          <Image src={Marcos} alt="Work 2" />
+          <Image src={Coder} alt="Work 2" />
           <div className="modal-popup__desc">
-            <h5>Personal Portfolio</h5>
-            <p>Descrição que será dada ao projeto do portfolio</p>
-            <ul className="modal-popup__cat">
+            <h5>Coder Editor</h5>
+            <p>In this project I&apos;ll try to push my skills to another level, implementing
+              something from the ground up to deploy from a kind of technology that I like and
+              use much. So stay tuned to the technical adventure.💻😃</p>
+            {/* <ul className="modal-popup__cat">
               <li>Programming</li>
-            </ul>
+            </ul> */}
           </div>
 
           <a href="#" className="modal-popup__details">
