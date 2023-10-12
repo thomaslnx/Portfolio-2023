@@ -423,10 +423,13 @@ export const Global = `
     width: 33.33333%;
   }
 
-  .md-5 {
-    flex: none;
-    width: 41.66667%;
-  }
+  // This rule must be commented to correct show of the
+  // contact-bottom section from Say Hello
+
+  // .md-5 {
+  //   flex: none;
+  //   width: 41.66667%;
+  // }
 
   .md-6 {
     flex: none;
