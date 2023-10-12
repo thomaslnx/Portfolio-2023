@@ -130,11 +130,11 @@ export const Container = styled.header`
 
   .mobile-menu-toggle span {
     display: block;
+    background-color: var(--color-white);
     width: 24px;
     height: 1px;
-    background-color: var(--color-white);
-    transition: background-color 1.1s ease-in-out;
     margin-top: -1px;
+    font: 0/0 a;
     text-shadow: none;
     color: transparent;
     position: absolute;
@@ -142,6 +142,7 @@ export const Container = styled.header`
     top: 50%;
     bottom: auto;
     left: auto;
+    transition: background-color 0.7s ease-in-out 0.3s;
   }
 
   .mobile-menu-toggle span::before,
@@ -149,9 +150,25 @@ export const Container = styled.header`
     content: '';
     width: 100%;
     height: 100%;
-    background-color: var(--color-white);
+    background-color: inherit;
+    transition-duration: 0.2s, 0.2s;
+    transition-delay: 0.2s, 0s;
     position: absolute;
     left: 0;
+  }
+
+  .mobile-menu-toggle span::before {
+    top: -8px;
+    /* transition-property: top, transform; */
+    transform: (-45deg);
+    transition: top 0.4s ease-in-out 0.4s, transform 0.4s ease-in-out 0.1s, background-color linear 1s;
+  }
+
+  .mobile-menu-toggle span::after {
+      bottom: -8px;
+      transform: (45deg);
+      /* transition-property: bottom, transform; */
+      transition: bottom 0.4s ease-in-out 0.4s, transform 0.4s ease-in-out 0.1s, background-color linear 1s;
   }
 
   // ## When some menu item is clicked
@@ -164,7 +181,7 @@ export const Container = styled.header`
   .mobile-menu-toggle.is-clicked span::before,
   .mobile-menu-toggle.is-clicked span::after {
     background-color: white;
-    transition-delay: 0.2s, 0.2s;
+    transition-delay: 0s, 0.2s;
   }
 
   .mobile-menu-toggle.is-clicked span::before {
@@ -179,7 +196,7 @@ export const Container = styled.header`
     transition: bottom 0.4s ease-in-out 0s, transform 0.4s ease-in-out 0.6s;
   }
 
-  /* -------------------------------------------------------------------
+/* -------------------------------------------------------------------
  * responsive: site-header
  * -------------------------------------------------------------------
 */
@@ -210,7 +227,7 @@ export const Container = styled.header`
 
     .main-nav {
       padding: var(--vspace-1) 0 var(--vspace-1_5);
-      transform: translateY(0);
+      transform: translateY(-2rem);
       opacity: 0;
       visibility: hidden;
       transition: opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s,
@@ -254,6 +271,28 @@ export const Container = styled.header`
 
     .main-nav ul li:first-child {
       display: none;
+    }
+
+    .menu-is-open .s-header {
+      height: auto;
+    }
+
+    .menu-is-open .header-mobile {
+      box-shadow: none;
+    }
+
+    .menu-is-open .main-nav-wrap {
+      transform: scaleY(1);
+      transition: transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+      transition-delay: 0.4s;
+    }
+
+    .menu-is-open .main-nav {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+      transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+      transition-delay: 0.4s;
     }
   }
 

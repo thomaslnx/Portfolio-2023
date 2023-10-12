@@ -222,17 +222,17 @@ export const Global = `
 }
 
 .lg-4 {
-  flex  : none;
-  width : 33.33333%;
+  flex: none;
+  width: 33.33333%;
 }
 
 .lg-5 {
-  flex  : none;
-  width : 41.66667%;
+  flex: none;
+  width: 41.66667%;
 }
 
 .lg-6 {
-  flex: none !important;
+  flex: none;
   width: 50%;
 }
 
@@ -273,102 +273,102 @@ export const Global = `
 
 @media screen and (max-width: 800px) {
   .tab-1 {
-    flex  : none;
-    width : 8.33333%;
+    flex: none;
+    width: 8.33333%;
   }
 
   .tab-2 {
-    flex  : none;
-    width : 16.66667%;
+    flex: none;
+    width: 16.66667%;
   }
 
   .tab-3 {
-    flex  : none;
-    width : 25%;
+    flex: none;
+    width: 25%;
   }
 
   .tab-4 {
-    flex  : none;
-    width : 33.33333%;
+    flex: none;
+    width: 33.33333%;
   }
 
   .tab-5 {
-    flex  : none;
-    width : 41.66667%;
+    flex: none;
+    width: 41.66667%;
   }
 
   .tab-6 {
-    flex  : none;
-    width : 50%;
+    flex: none;
+    width: 50%;
   }
 
   .tab-7 {
-    flex  : none;
-    width : 58.33333%;
+    flex: none;
+    width: 58.33333%;
   }
 
   .tab-8 {
-    flex  : none;
-    width : 66.66667%;
+    flex: none;
+    width: 66.66667%;
   }
 
   .tab-9 {
-    flex  : none;
-    width : 75%;
+    flex: none;
+    width: 75%;
   }
 
   .tab-10 {
-    flex  : none;
-    width : 83.33333%;
+    flex: none;
+    width: 83.33333%;
   }
 
   .tab-11 {
-    flex  : none;
-    width : 91.66667%;
+    flex: none;
+    width: 91.66667%;
   }
 
   .tab-12 {
-    flex  : none;
-    width : 100%;
+    flex: none;
+    width: 100%;
   }
 
   .block-tab-one-eight>.column {
-    flex  : none;
-    width : 12.5%;
+    flex: none;
+    width: 12.5%;
   }
 
   .block-tab-one-sixth>.column {
-    flex  : none;
-    width : 16.66667%;
+    flex: none;
+    width: 16.66667%;
   }
 
   .block-tab-one-fifth>.column {
-    flex  : none;
-    width : 20%;
+    flex: none;
+    width: 20%;
   }
 
   .block-tab-one-fourth>.column {
-    flex  : none;
-    width : 25%;
+    flex: none;
+    width: 25%;
   }
 
   .block-tab-one-third>.column {
-    flex  : none;
-    width : 33.33333%;
+    flex: none;
+    width: 33.33333%;
   }
 
   .block-tab-one-half>.column {
-    flex  : none;
-    width : 50%;
+    flex: none;
+    width: 50%;
   }
 
   .block-tab-whole>.column {
-    flex  : none;
-    width : 100%;
+    flex: none;
+    width: 100%;
   }
 
   .hide-on-tab {
-      display : none;
+    display: none;
   }
 }
 
@@ -385,121 +385,121 @@ export const Global = `
 @media screen and (max-width: 700px) {
   .stack-on-700,
   .block-stack-on-700>.column {
-    flex         : none;
-    width        : 100%;
-    margin-left  : 0;
-    margin-right : 0;
+    flex: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media screen and (max-width: 550px) {
   .stack-on-550,
   .block-stack-on-550>.column {
-    flex         : none;
-    width        : 100%;
-    margin-left  : 0;
-    margin-right : 0;
+    flex: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .md-1 {
-      flex  : none;
-      width : 8.33333%;
+      flex: none;
+      width: 8.33333%;
     }
 
   .md-2 {
-    flex  : none;
-    width : 16.66667%;
+    flex: none;
+    width: 16.66667%;
   }
 
   .md-3 {
-    flex  : none;
-    width : 25%;
+    flex: none;
+    width: 25%;
   }
 
   .md-4 {
-    flex  : none;
-    width : 33.33333%;
+    flex: none;
+    width: 33.33333%;
   }
 
-  // .md-5 {
-  //   flex  : none;
-  //   width : 41.66667%;
-  // }
+  .md-5 {
+    flex: none;
+    width: 41.66667%;
+  }
 
   .md-6 {
-    flex  : none;
-    width : 50%;
+    flex: none;
+    width: 50%;
   }
 
   .md-7 {
-    flex  : none;
-    width : 58.33333%;
+    flex: none;
+    width: 58.33333%;
   }
 
   .md-8 {
-    flex  : none;
-    width : 66.66667%;
+    flex: none;
+    width: 66.66667%;
   }
 
   .md-9 {
-    flex  : none;
-    width : 75%;
+    flex: none;
+    width: 75%;
   }
 
   .md-10 {
-    flex  : none;
-    width : 83.33333%;
+    flex: none;
+    width: 83.33333%;
   }
 
   .md-11 {
-    flex  : none;
-    width : 91.66667%;
+    flex: none;
+    width: 91.66667%;
   }
 
   .md-12 {
-    flex  : none;
-    width : 100%;
+    flex: none;
+    width: 100%;
   }
 
   .block-md-one-eight>.column {
-    flex  : none;
-    width : 12.5%;
+    flex: none;
+    width: 12.5%;
   }
 
   .block-md-one-sixth>.column {
-    flex  : none;
-    width : 16.66667%;
+    flex: none;
+    width: 16.66667%;
   }
 
   .block-md-one-fifth>.column {
-    flex  : none;
-    width : 20%;
+    flex: none;
+    width: 20%;
   }
 
   .block-md-one-fourth>.column {
-    flex  : none;
-    width : 25%;
+    flex: none;
+    width: 25%;
   }
 
   .block-md-one-third>.column {
-    flex  : none;
-    width : 33.33333%;
+    flex: none;
+    width: 33.33333%;
   }
 
   .block-md-one-half>.column {
-    flex  : none;
-    width : 50%;
+    flex: none;
+    width: 50%;
   }
 
   .block-md-whole>.column {
-    flex  : none;
-    width : 100%;
+    flex: none;
+    width: 100%;
   }
 
   .hide-on-md {
-    display : none;
+    display: none;
   }
 }
 
@@ -527,8 +527,8 @@ html {
 svg,
 img,
 video {
-  max-width : 100%;
-  height    : auto;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -612,7 +612,7 @@ form,
 img,
 .video-container,
 .ss-custom-select {
-  margin-bottom : var(--vspace-1);
+  margin-bottom: var(--vspace-1);
 }
 
 @media screen and (max-width: 500px) {
@@ -625,36 +625,16 @@ img,
 @media screen and (max-width: 800px) {
   .mobile-menu-toggle span::before {
     top: -8px;
+    transform-property: top, transform;
     transform: rotate(0deg);
     transition: transform 0.6s ease-in-out 0s, top 0.4s ease-in-out 0.6s;
   }
 
   .mobile-menu-toggle span::after {
     bottom: -8px;
+    transform-property: bottom, transform;
     transform: rotate(0deg);
     transition: transform 0.6s ease-in-out 0s, bottom 0.4s ease-in-out 0.6s;
   }
-
-  .menu-is-open .s-header {
-    height: auto;
-  }
-
-  .menu-is-open .header-mobile {
-    box-shadow: none;
-  }
-
-  .menu-is-open .main-nav-wrap {
-    transform: scaleY(1);
-    transition: transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-
-  .menu-is-open .main-nav {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
-    transition-delay: 0.4s;
-  }
-
 }
 `;
