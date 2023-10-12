@@ -10,12 +10,7 @@ const Header: React.FC<HeaderProps> = ({ menuIsClicked }: HeaderProps): JSX.Elem
       <span className="mobile-home-link">
         <a href="#">Marcos.</a>
       </span>
-      <a
-        className={`mobile-menu-toggle ${
-          menuIsClicked === true ? 'is-clicked' : ''
-        }`}
-        href="#0"
-      >
+      <a className={`mobile-menu-toggle ${ menuIsClicked === true ? 'is-clicked' : '' }`} href="#0">
         <span>Menu</span>
       </a>
     </div>
