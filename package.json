@@ -17,6 +17,7 @@
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "@types/three": "^0.152.0",
+    "@vercel/speed-insights": "^1.0.10",
     "animejs": "^3.2.1",
     "basiclightbox": "^5.0.4",
     "eslint": "8.38.0",

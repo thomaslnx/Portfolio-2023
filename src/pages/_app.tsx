@@ -1,4 +1,5 @@
 import type { AppProps } from 'next/app'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 import Head from 'next/head'
 import GlobalStyle from '@styles/index'
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <GlobalStyle/>
 
     <Component {...pageProps} />
+    <SpeedInsights />
   </>
   )
 }
